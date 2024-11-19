@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+/* Root */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Play", sans-serif;
+}
+
+.play-regular {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.play-bold {
+    font-weight: 700;
+    font-style: normal;
+}  
+
+/* Header */
+
+header{
+    background: rgb(27,27,27);
+    background: linear-gradient(0deg, rgba(27,27,27,1) 0%, rgba(253,100,29,1) 50%, rgba(252,222,69,1) 100%);  
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+div.titulo a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    font-family: Play;
+    text-shadow: 2px 2px black;
+}
+
+nav{
+    background: linear-gradient(rgba(27,27,27,1) ,  rgb(70, 70, 70),  rgb(114, 114, 114,1),  rgb(70, 70, 70));
+    min-height: 2rem;
+    display: flex;
+    padding-left: 40rem;
+    padding-right: 40rem;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Play;
+    text-shadow: 2px 2px black;
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* Main */
+
+main{
+    min-height: calc(100vh - 8rem);
+    background-image: url(/static/img/mirrorsedge.png);
+    background-size: 150%;
+    background-position: center
+} 
+
+div.add{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+div.add a{
+    color: black;
+    text-decoration: none;
+}
+
+h1.index{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3rem;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: rgb(255, 118, 38);
+    text-shadow: 2px 2px black;
+}
+
+div.index img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30rem;
+}
+
+/* Tabela */
+
+table, tr, td, th{
+    border: 2px solid rgba(255, 137, 2, 0.11);
+    border-collapse: collapse;
+    background-color: rgba(255, 178, 90, 0.096);
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+table td a{
+    padding: 0;
+    font-size: 2rem;
+    color: rgb(255, 137, 2);
+    text-decoration: none;
+    text-shadow: 2px 2px rgb(119, 64, 0);
+}
+
+/* Form */
+form{
+    padding-top: 1rem;
+    border: 2px solid rgba(255, 137, 2, 0.11);
+    border-collapse: collapse;
+    background-color: rgba(255, 178, 90, 0.096);
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 1rem;
+    width: 20rem;
+    height: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    font-size: 1.5rem;
+    width: 18rem;
+    background-color: rgba(255, 124, 37, 0.308);
+    border: 3px solid rgba(255, 137, 2, 0.11);
+
+}
+
+form div select{
+    font-size: 1.5rem;
+    width: 18rem;
+    background-color: rgba(255, 124, 37, 0.308);
+    border: 3px solid rgba(255, 137, 2, 0.11);
+}
+
+form select{
+    font-size: 1.5rem;
+    width: 18rem;
+    background-color: rgba(255, 124, 37, 0.308);
+    border: 3px solid rgba(255, 137, 2, 0.11);
+}
+
+button{
+    margin-top: 1rem;
+    margin-left: 13rem;
+    height: 3rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgb(255, 166, 0), rgb(255, 196, 0));
+    color: var(--black);
+    border-radius: 15%;
+    cursor: pointer;
+    border: 0;
+    font-size: 1.5rem;
+}
+
+input{
+    font-size: 2rem;
+    height: 2rem;
+    width: 18rem;
+}
+
+/* Footer */
+
+footer{
+    font-family: Play;
+    min-height: 2rem;
+    background: linear-gradient(rgb(70, 70, 70),  rgb(114, 114, 114,1),  rgb(70, 70, 70),  rgba(27,27,27,1));
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+  

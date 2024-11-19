@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EscolaRainundos</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/estilo.css')}}">
+    
+</head>
+<body>
+    <header>
+            <div class="titulo">
+                <a href="/">Escola Raimundo Nonato</a>
+            </div>
+    </header>
+    <nav>
+        <a href="/alunos">Aluno</a>
+        <a href="/cursos">Cursos</a>
+    </nav>
+    <main>
+        {% block conteudo %}
+        {% endblock %}
+    </main>
+    <footer>
+        <div>
+            © Copyright
+        </div>
+    </footer>
+</body>
+</html>
